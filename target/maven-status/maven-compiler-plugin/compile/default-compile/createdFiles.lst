@@ -1,0 +1,14 @@
+com\test\clentCode\Update.class
+com\oracle\xmlns\pcbpel\adapter\db\pocvendorinfo\vendorinfo\bam_dev\VendorinfoClientEp.class
+com\oracle\xmlns\pcbpel\adapter\db\top\bam_dev\VendorinfoCollection.class
+org\example\VendorInfo\WelcomeUserAction.class
+com\oracle\xmlns\pcbpel\adapter\db\top\bam_dev\BAMDEVSelectId.class
+org\example\VendorInfo\UpdateVendorInfoAction.class
+com\oracle\xmlns\pcbpel\adapter\db\top\bam_dev\Vendorinfo.class
+com\oracle\xmlns\pcbpel\adapter\db\top\bam_dev\ObjectFactory.class
+org\example\VendorInfo\client\GetVendorDetails.class
+org\example\VendorInfo\LoginAction.class
+com\oracle\xmlns\pcbpel\adapter\db\pocvendorinfo\vendorinfo\bam_dev\BAMDEVPtt.class
+org\example\VendorInfo\GetVendorInfoAction.class
+com\oracle\xmlns\pcbpel\adapter\db\top\bam_dev\package-info.class
+com\test\clentCode\ClientCode.class
