@@ -39,7 +39,7 @@
 			<div class="wrap-login100">
 				<div class="login100-form-title" style="background-image: url(images/bg-01.jpg);">
 					<span class="login100-form-title-1">
-						Vendor Info Portal
+						FSC Vendor Info Portal
 					</span>
 				</div>
 
