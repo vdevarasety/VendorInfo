@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC
 "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
@@ -31,4 +32,39 @@ Below Package to update or delete the vendor Information
 		<result name="DELETE">/deleteSuccess.jsp</result>
 	</action>
 </package>	
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+	<package name="Authentication" namespace="/" extends="struts-default">
+	   <action name="Login" class="org.example.VendorInfo.WelcomeUserAction">
+			<result name="SUCCESS">/getVendorDetails.jsp</result>
+			<result name="FAIL">/login.jsp</result>
+		</action>
+	</package>	
+
+<!--
+Below Package to get the vendor Information 
+ -->
+<package name="GetVendorInformation" namespace="/" extends="struts-default">
+   <action name="GetVendorInfo" class="org.example.VendorInfo.GetVendorInfoAction">
+		<result name="SUCCESS">/DisplayVendorDetails.jsp</result>
+		<result name="FAIL">/Failure.jsp</result>
+	</action>
+</package>	
+
+
+<!--
+Below Package to update or delete the vendor Information 
+ -->
+<package name="UpdateVendorInfo" namespace="/" extends="struts-default">
+   <action name="UpdateVendorInfo" class="org.example.VendorInfo.UpdateVendorInfoAction">
+		<result name="UPDATE">/updateSuccess.jsp</result>
+		<result name="DELETE">/deleteSuccess.jsp</result>
+	</action>
+</package>	
+>>>>>>> 2913b49a1c466aff5374a7d68a9a30a822f51761
 </struts>
