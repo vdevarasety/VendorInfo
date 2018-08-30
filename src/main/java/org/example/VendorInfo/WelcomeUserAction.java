@@ -54,7 +54,7 @@ public class WelcomeUserAction {
 
 	// all struts logic here
 	public String execute()  {
-		if ("Vayun".equalsIgnoreCase(userName) && "pwd".equalsIgnoreCase(password))
+		if ("Vayun".equalsIgnoreCase(userName) && "pwd123".equalsIgnoreCase(password))
 			return SUCCESS_REQ ;
 		else
 			return FAIL_REQ;
