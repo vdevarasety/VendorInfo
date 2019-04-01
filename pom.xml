@@ -20,6 +20,14 @@
 			<version>2.3.1.2</version>
 	</dependency>
   </dependencies>
+	<!-- nexus integration start--> 
+  <distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://vac21appfsg402:8081/repository/NexusPOC-snapshot/</url>
+   </snapshotRepository>
+</distributionManagement>
+	<!-- nexus integration ends--> 
   <build>
     <finalName>VendorInfo</finalName>
      <plugins>
