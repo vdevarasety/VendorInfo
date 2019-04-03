@@ -4,7 +4,8 @@
   <groupId>VendorInfo</groupId>
   <artifactId>VendorInfo</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <!-- <version>0.0.1-SNAPSHOT</version> -->
+  <version>0.0.1</version>
   <name>VendorInfo Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
